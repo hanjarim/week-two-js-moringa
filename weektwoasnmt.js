@@ -33,7 +33,7 @@ const handleClick = () => {
         const birthDay = birthDayBox.value;
         const birthMonth= birthMonthBox.value;
         const birthYear= birthYearBox.value;
-        //const birthGender= birthGenderBox.value;
+        const birthGender= birthGenderBox.value;
 
 
     //console.log(birthDayBox,birthMonthBox,birthYearBox,birthGenderBox)
