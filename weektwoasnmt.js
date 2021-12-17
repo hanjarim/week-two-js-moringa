@@ -21,8 +21,7 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
 }
 
 const handleClick = () => {
-    console.log("birthDay")
-   // alert('Please enter a valid month')
+       
         const buttonObject=document.getElementById("btn")
         const birthDayBox = document.getElementById("birthDay")
         const birthMonthBox = document.getElementById("birthMonth")
