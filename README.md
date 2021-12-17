@@ -1,7 +1,7 @@
 "week-two-js-moringa"
 #
 This is my second assignment project as I take on learning html.
-In this assignment, I have created a Calender that allows a user to input day, month, year and Gender. 
+In this assignment, I have created a Calender that allows a user to input day, month, year and Gender. <br>
 This document is authored by MOSES HANJARI
 <br>
 A brief description of the project. 
