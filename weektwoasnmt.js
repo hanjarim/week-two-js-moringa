@@ -4,7 +4,7 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
     const calculationResult = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
 
     //console.log(calculationResult)
-    //let wholeNumber = Number(calculationResult.toFixed())
+    let wholeNumber = Number(calculationResult.toFixed())
 
     const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
@@ -23,8 +23,8 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
 const handleClick = () => {
     //console.log("birthDay")
    // alert('Please enter a valid month')
-        const buttonObject=document.getElementById("btn")
-        const birthDayBox = document.getElementById("birthDay")
+        //const buttonObject=document.getElementById("btn")
+        //const birthDayBox = document.getElementById("birthDay")
         const birthMonthBox = document.getElementById("birthMonth")
         const birthYearBox = document.getElementById("birthYear")
         const birthGenderBox = document.getElementById("birthGender")
