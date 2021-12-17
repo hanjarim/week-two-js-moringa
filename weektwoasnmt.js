@@ -3,7 +3,7 @@
 const akanNameCalculator = (CC, YY, MM, DD, gender) => {
     const calculationResult = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
 
-    console.log(calculationResult)
+    //console.log(calculationResult)
     let wholeNumber = Number(calculationResult.toFixed())
 
     const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
