@@ -18,7 +18,7 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
     } else {
         return { 'name': femaleNames[wholeNumber], 'day': daysOfTheWeek[wholeNumber] };
     }
-}
+}}
 
 const handleClick = () => {
     //console.log("birthDay")
