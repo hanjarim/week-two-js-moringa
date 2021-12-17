@@ -31,8 +31,8 @@ const handleClick = () => {
 
     //Step Two- Retrieve reference to HTML elements
         //const birthDay = birthDayBox.value;
-        const birthMonth= birthMonthBox.value;
-        const birthYear= birthYearBox.value;
+        //const birthMonth= birthMonthBox.value;
+        //const birthYear= birthYearBox.value;
         const birthGender= birthGenderBox.value;
 
 
